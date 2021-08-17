@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼"
+        android:paddingTop="100px"
+        android:paddingRight="150px"
+        android:paddingLeft="200px"
+        android:paddingBottom="300px"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="에디텍스트"
+
+        android:paddingTop="100px"
+        android:paddingRight="150px"
+        android:paddingLeft="200px"
+        android:paddingBottom="300px"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="텍스트뷰"
+
+        />
+
+    <Button
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:text="버튼2"
+        android:backgroundTint="#00ff00"
+        android:layout_marginTop="100px"
+        android:layout_marginRight="200px"
+        android:layout_marginBottom="300px"
+        android:layout_marginLeft="400px"
+        />
+
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:text="에디텍스트2"
+        android:background="#ff0000"
+
+        />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="300px"
+        android:text="텍스트뷰2"
+        android:background="#0000ff"
+        />
+
+
+</LinearLayout>
